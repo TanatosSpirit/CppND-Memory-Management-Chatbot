@@ -11,7 +11,8 @@ GraphNode::~GraphNode()
     //// STUDENT CODE
     ////
 
-    delete _chatBot; 
+    // GraphNode is not owner this resource
+    // delete _chatBot;
 
     ////
     //// EOF STUDENT CODE
